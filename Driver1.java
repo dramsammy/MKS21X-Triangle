@@ -10,7 +10,7 @@ public class Driver1{
     Point p2 = new Point(2,2);
     System.out.println("Testing the distance 3 ways, should all be sqrt(2)");
     System.out.println(  distance(p1,p2)); //static in the Driver class
-  //  System.out.println(  Point.distance(p1,p2)); //static in the Point class
+    System.out.println(  Point.distance(p1,p2)); //static in the Point class
     System.out.println(  p1.distanceTo(p2)); //non-static in the Point class.
 
     System.out.println("\nTesting 2 identical traingles, perimeter is 2+sqrt(2)");

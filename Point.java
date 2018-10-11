@@ -18,7 +18,7 @@ public class Point{
   public double getY(){
     return y;
   }
-  public double distanceTo(Point a){
+  public double distance(Point a){
     double coord1 = a.getX();
     double coord2 = a.getY();
     double coord3 = getX();
